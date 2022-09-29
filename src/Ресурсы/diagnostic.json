@@ -1,0 +1,17 @@
+{
+    "range": {
+      "start": {
+        "line": 0,
+        "character": 0
+      },
+      "end": {
+        "line": 0,
+        "character": 0
+      }
+    },
+    "severity": "Information",
+    "code": "",
+    "source": "edt-rules",
+    "message": "",
+    "relatedInformation": null
+}

@@ -1179,6 +1179,206 @@
 			"Severity": "MINOR",
 			"Active": true,
 			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-119",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-field-in-description-suggestion",
+			"Name": "Возможно Поле указано в описании",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-120",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-return-section-type",
+			"Name": "Возвращаемый тип не известен",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-121",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-field-name",
+			"Name": "Имя поля является некорректным",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-122",
+			"InternalCode": "com.e1c.v8codestyle.bsl:method-too-many-params",
+			"Name": "Метод содержит более чем 3 параметров со значением по умолчанию",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-123",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-type",
+			"Name": "Неизвестный тип указан в документирующем комментарии",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-124",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-complex-type-with-link",
+			"Name": "Поле использует объявление сложного типа вместо ссылки на тип",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-125",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-collection-item-type",
+			"Name": "Тип коллекции должен содержать тип элемента коллекции",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-126",
+			"InternalCode": "com.e1c.v8codestyle.bsl:constructor-function-return-section",
+			"Name": "Возвращается не декларированный тип",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-127",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-field-type",
+			"Name": "Поле не имеет определения типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-128",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-field-type-strict",
+			"Name": "Поле не имеет определения типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-129",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-parameter-in-description-suggestion",
+			"Name": "Возможно параметр метода указан в описании",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-130",
+			"InternalCode": "com.e1c.v8codestyle.md:md-standard-attribute-synonym-empty",
+			"Name": "Не задан синоним у стандартного реквизита",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-131",
+			"InternalCode": "com.e1c.v8codestyle.md:md-list-object-presentation",
+			"Name": "Не заполнено ни представление объекта, ни представление списка",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-132",
+			"InternalCode": "com.e1c.v8codestyle.bsl:module-region-empty",
+			"Name": "Область пустая",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-133",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-name-server-call",
+			"Name": "Общий модуль должен именоваться с постфиксом ВызовСервера",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-134",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-automation",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-135",
+			"InternalCode": "com.e1c.v8codestyle.right:right-active-users",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-136",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-external-connection",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-137",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-thick-client",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-138",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-type",
+			"Name": "Общий модуль для типа имеет некорректне настройки",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
 		}
 	]
 }

@@ -28,19 +28,19 @@
 
 + Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep*  с внешним файлом правил и создать отчет *out.json*.
 
-```
+```shell
  edt-ripper -f /mnt/share/custom-rules.json parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
 ```
 
 + Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep* с внутренним файлом правил и создать отчет *out.json*
 
-```
+```shell
  edt-ripper  parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
 ```
 
 + Разобрать замечания для проектов  *configuration* и *exts* в репозитории *my_awersome_rep* с внутренним файлом правил и создать отчет *out.json*
 
-```
+```shell
  edt-ripper  parse ./edt-validate-results ./my_awersome_rep/ configuration exts ./out.json
 ```
 

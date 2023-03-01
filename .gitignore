@@ -5,4 +5,3 @@ out.json
 *.ospx
 .DS_Store
 out/*
-custom-rules-pub.json

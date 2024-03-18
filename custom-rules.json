@@ -1789,6 +1789,306 @@
 			"Severity": "MINOR",
 			"Active": true,
 			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-180",
+			"InternalCode": "com.e1c.v8codestyle.bsl:variable-value-type",
+			"Name": "Переменная не имеет типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-181",
+			"InternalCode": "Несколько линий, исходящих из точки выбора варианта, входят в одну точку карты маршрута",
+			"Name": "Несколько линий, исходящих из точки выбора варианта, входят в одну точку карты маршрута",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-182",
+			"InternalCode": "com.e1c.v8codestyle.bsl:module-attachable-event-handler-name",
+			"Name": "Программно добавленное имя обработчика события должно соответствовать шаблону",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-183",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-name-client",
+			"Name": "Клиентский общий модуль должен оканчиваться на суффикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-184",
+			"InternalCode": "Некорректное значение свойства. Справочнику, имеющему предопределенные данные, нельзя назначить владельца!!",
+			"Name": "Некорректное значение свойства. Справочнику, имеющему предопределенные данные, нельзя назначить владельца!!",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-185",
+			"InternalCode": "com.e1c.v8codestyle.bsl:method-param-value-type",
+			"Name": "Параметр метода не имеет типа значения",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-186",
+			"InternalCode": "com.e1c.dt.check.form:form-invalid-item-id",
+			"Name": "Значение идентификатора элемента формы продублировано в другом элементе формы",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-187",
+			"InternalCode": "Отсутствуют линии, входящие в точку карты маршрута",
+			"Name": "Отсутствуют линии, входящие в точку карты маршрута",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-188",
+			"InternalCode": "Текст метода имеет отличия от базового метода, что не допустимо в случае расширения",
+			"Name": "Текст метода имеет отличия от базового метода, что не допустимо в случае расширения",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-189",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-name-client-cached",
+			"Name": "Общий модуль должен именоваться с постфиксом КлиентПовтИсп",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-190",
+			"InternalCode": "com.e1c.v8codestyle.bsl:change-and-validate-instead-of-around",
+			"Name": "Рекомендуется использовать аннотацию &ИзменениеИКонтроль вместо &Вместо",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-191",
+			"InternalCode": "com.e1c.v8codestyle.bsl:extension-method-prefix",
+			"Name": "Имя метода должно содержать префикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-192",
+			"InternalCode": "com.e1c.v8codestyle.md:extension-md-object-prefix",
+			"Name": "Имя объекта должно содержать префикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-193",
+			"InternalCode": "com.e1c.v8codestyle.bsl:extension-variable-prefix",
+			"Name": "Переменная должна иметь префикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-194",
+			"InternalCode": "com.e1c.v8codestyle.bsl:invocation-parameter-type-intersect",
+			"Name": "Вызываемый тип выражения не пересекается с типом",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-195",
+			"InternalCode": "com.e1c.v8codestyle.bsl:typed-value-adding-to-untyped-collection",
+			"Name": "Добавление типизированного значения в не типизированную коллекцию",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-196",
+			"InternalCode": "com.e1c.v8codestyle.bsl:dynamic-access-method-not-found",
+			"Name": "Метод не найден в исходном объекте",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-197",
+			"InternalCode": "com.e1c.v8codestyle.bsl:property-return-type",
+			"Name": "Свойство не имеет типа возвращаемого значения",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-198",
+			"InternalCode": "com.e1c.v8codestyle.bsl:statement-type-change",
+			"Name": "Тип значения заменен на",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-199",
+			"InternalCode": "Не задано содержимое графы журнала",
+			"Name": "Не задано содержимое графы журнала",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-200",
+			"InternalCode": "Отличается сигнатура метода расширения от сигнатуры заимствованного метода. Количество параметров и их тип, тип и экспортируемость должны совпадать",
+			"Name": "Отличается сигнатура метода расширения от сигнатуры заимствованного метода. Количество параметров и их тип, тип и экспортируемость должны совпадать",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-201",
+			"InternalCode": "Оператор в функции должен возвращать определенное значение",
+			"Name": "Оператор в функции должен возвращать определенное значение",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-202",
+			"InternalCode": "Свойство недоступно для текущего режима совместимости",
+			"Name": "Свойство недоступно для текущего режима совместимости",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-203",
+			"InternalCode": "Не найден объект расширяемой конфигурации с внутренним идентификатором",
+			"Name": "Не найден объект расширяемой конфигурации с внутренним идентификатором",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-204",
+			"InternalCode": "Синтаксическая ошибка. Неверный ввод - ожидается\"",
+			"Name": "Синтаксическая ошибка. Неверный ввод - ожидается\"",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-205",
+			"InternalCode": "Расширяемый объект для объекта расширения с именем не найден.",
+			"Name": "Расширяемый объект для объекта расширения с именем не найден.",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-206",
+			"InternalCode": "com.e1c.v8codestyle.bsl:module-consecutive-blank-lines",
+			"Name": "Между строками расположено больше 1 пустых строк",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-207",
+			"InternalCode": "Инструкци препроцессора и не могут быть вложены друг в друга",
+			"Name": "Инструкци препроцессора и не могут быть вложены друг в друга",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-208",
+			"InternalCode": "Не правильно использовать аннотации для обработчиков событий формы",
+			"Name": "Не правильно использовать аннотации для обработчиков событий формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-209",
+			"InternalCode": "Синтаксическая ошибка. Неверная лексема - ожидается\"",
+			"Name": "Синтаксическая ошибка. Неверная лексема - ожидается\"",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
 		}
 	]
 }

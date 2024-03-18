@@ -5,3 +5,9 @@ out.json
 *.ospx
 .DS_Store
 out/*
+.idea/**/*
+.vscode/**/*
+.rules/**/*
+.results/**/*
+.build/**/*
+.report/**/*

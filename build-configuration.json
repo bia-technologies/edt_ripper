@@ -1,0 +1,12 @@
+{
+    "sonarqube" : true,
+    "test" : false,
+    "coverage" : false,
+    "build" : true,
+    "publish" : {
+      "enable" : true,
+      "stableBranch" : "release/.*",
+      "develop" : true
+    }
+  }
+  

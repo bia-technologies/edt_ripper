@@ -3,9 +3,9 @@
 Консольная утилита для работы с замечаниями ЕДТ и файлами правил для SQ. выполняет разбор EDT отчета анализа проекта. Формирует результат в формате bsl-ls.
 Мапит обнаруженные замечания с правилами (внутренний файл правил, внешний файл правил)
 
-## Возможности
+## Возможности (команды)
 
- 1. Команда `parse` - Преобразует файл с результатом анализа проекта из ЕДТ в отчет формата BSL LS. Если замечание будет новое, для которого еще нет правила, оно будет добавлено в хранилище правил.
+ 1. Команда `parse` - преобразует файл с результатом анализа проекта из ЕДТ в отчет формата BSL LS. Если замечание будет новое, для которого еще нет правила, оно будет добавлено в хранилище правил.
 
  2. Команда `publish` - удалит всю служебную информацию из хранилища правил. Итоговый файл готов к загрузке в SQ.
 
@@ -13,7 +13,7 @@
 
 + Версия EDT > 2021.2
 
-## Предварительные настройки и порядок использования
+## Предварительные настройки проекта SonarQube
 
 Действия выполняются через UI SQ или через sonar.properties
 
@@ -24,25 +24,104 @@
 + Проверить что правила появились. Ввиду особенности работы SQ может потребоваться удалить и установить плагин sonar-bsl чтобыправила обновились в профиле качества.
 + Путь к файлу с результатом работы программы указывается в свойстве `sonar.bsl.languageserver.reportPaths` сканера SQ
 
-## Пример использования
+## Использование
 
-+ Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep*  с внешним файлом правил и создать отчет *out.json*.
+### Ключи
+
+Ключ `--help` покажет справку по глобальным параметрам
+
+Ключ `--version` используется для вывода на экран текущей версии программы.<br>При использовании этого ключа программа выведет на экран информацию о текущей версии и затем завершит свою работу.
+
+Ключ `-v / --verbose` используется для включения режима подробного вывода.
+<br>При использовании этого ключа программа будет выводить дополнительную информацию в процессе своей работы, чтоб может быть полезно при отладке.
+
+Ключ `-f / --file` позволяет указать внешний путь к файлу с правилами. По-умолчанию (если не указано) будет использоваться внутренний путь до файла с правилами, расположенный в каталоге с программой.
+
+Ключ `--export-rule-errors` указывает, следует ли сохранять ошибки, обнаруженные в процессе анализа (парсинга) замечаний в отдельный файл `custom-rules-errors.json`.
+
+Ключ `--nexus-rules-url` указывает URL-адрес до внешнего файла правил в репозитории Nexus. Если используется этот ключ, то ключ `-f / --file` - игнорируется.
+
+Ключ `--nexus-auth-username` указывает имя пользователя, используемое для аутентификации в Nexus. Имя пользователя обычно используется в паре с ключом `--nexus-auth-password`.
+
+Ключ `--nexus-auth-password` указывает пароль пользователя, используемый для аутентификации в Nexus. Аналогично ключу выше, также используется в паре с ключом `--nexus-auth-username`.
+
+### Переменные окружения
+
+Переменные окружения служат в качестве альтернативы для большинства ключей.
+|Переменная окружения|Тип|Ключ|
+|-|-|-|
+|`EDT_RIPPER_VERBOSE`|Булево|`verbose`|
+|`EDT_RIPPER_RULES_FILE`|Строка|`file`|
+|`EDT_RIPPER_EXPORT_RULES_ERRORS`|Булево|`export-rule-errors`|
+|`EDT_RIPPER_NEXUS_RULES_URL`|Строка|`nexus-rules-url`|
+|`EDT_RIPPER_NEXUS_AUTH_USERNAME`|Строка|`nexus-auth-username`|
+|`EDT_RIPPER_NEXUS_AUTH_PASSWORD`|Строка|`nexus-auth-password`|
+
+## Примеры использования
+
+### 1. Анализ замечаний (команда "parse")
+
+Эта команда используется в качестве "первичной" и готовит выходной файл для публикации.
+
+</br><b>Использование ключей</b>
+
++ Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep* с <u>внешним файлом правил</u> и создать отчет *out.json*.
 
 ```shell
- edt-ripper -f /mnt/share/custom-rules.json parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
+edt-ripper -f /mnt/share/custom-rules.json parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
 ```
 
-+ Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep* с внутренним файлом правил и создать отчет *out.json*
++ Разобрать замечания ЕДТ для проекта *configuration* в репозитории *my_awersome_rep* с <u>внутренним файлом правил</u> и создать отчет *out.json*
 
 ```shell
- edt-ripper  parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
+ edt-ripper parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
 ```
 
-+ Разобрать замечания для проектов  *configuration* и *exts* в репозитории *my_awersome_rep* с внутренним файлом правил и создать отчет *out.json*
+</br><b>Использование переменных окружения</b>
 
 ```shell
- edt-ripper  parse ./edt-validate-results ./my_awersome_rep/ configuration exts ./out.json
+export EDT_RIPPER_RULES_FILE=/mnt/share/custom-rules.json
+
+edt-ripper parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
 ```
+
+</br><b>Использование записи ошибок</b>
+
+```shell
+export EDT_RIPPER_EXPORT_RULES_ERRORS="Истина"
+export EDT_RIPPER_RULES_FILE=/mnt/share/custom-rules.json
+
+edt-ripper parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
+
+```
+
+</br><b>Использование "ЗагрузчикаПравил" (взаимодействие с [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository))</b>
+
+```shell
+export EDT_RIPPER_EXPORT_RULES_ERRORS="Истина"
+export EDT_RIPPER_NEXUS_RULES_URL="http://localhost:8080/repository/test/edt-ripper/custom-rules.json",
+export EDT_RIPPER_NEXUS_AUTH_USERNAME="adm1n",
+export EDT_RIPPER_NEXUS_AUTH_PASSWORD="P@SSw0rd256",
+
+edt-ripper parse ./edt-validate-results ./my_awersome_rep/ configuration ./out.json
+
+```
+
+### 2. Публикация подготовленного файла замечаний для SQ (команда "publish")
+
+Эта команда используется в качестве "завершающей". Готовит локально публикацию файла замечаний для SQ.
+
+</br><b>Использование переменных окружения</b>
+
+```shell
+export EDT_RIPPER_NEXUS_RULES_URL="http://localhost:8080/repository/test/edt-ripper/custom-rules.json",
+export EDT_RIPPER_NEXUS_AUTH_USERNAME="adm1n",
+export EDT_RIPPER_NEXUS_AUTH_PASSWORD="P@SSw0rd256",
+
+edt-ripper "publish" "./.report/out.json"
+```
+
+---
 
 ## todo
 

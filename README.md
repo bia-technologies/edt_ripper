@@ -45,6 +45,8 @@
 
 Ключ `--nexus-auth-password` указывает пароль пользователя, используемый для аутентификации в Nexus. Аналогично ключу выше, также используется в паре с ключом `--nexus-auth-username`.
 
+Ключ `-c / --config` позволяет указать внешний путь к файлу настроек проверки.
+
 ### Переменные окружения
 
 Переменные окружения служат в качестве альтернативы для большинства ключей.
@@ -56,6 +58,38 @@
 |`EDT_RIPPER_NEXUS_RULES_URL`|Строка|`nexus-rules-url`|
 |`EDT_RIPPER_NEXUS_AUTH_USERNAME`|Строка|`nexus-auth-username`|
 |`EDT_RIPPER_NEXUS_AUTH_PASSWORD`|Строка|`nexus-auth-password`|
+|`EDT_RIPPER_CONFIG`|Строка|`config`|
+
+## Файл настроек проверки
+
+Файл настроек проверки представляет собой json файл.
+
+На текущий момент содержит настройки для отключения ошибок. При совместном использовании с настройками ".bsl-language-server.json" позволяет полностью использовать "профиль качества" из настроек репозитория.
+
+### Раздел: diagnostics:filter_id
+
+Используется для отключения ошибок по внутреннему коду правил EDT.
+
+### Раздел: diagnostics:filter_code
+
+Используется для отключения ошибок по коду правил EDT из файла правил.
+
+Пример:
+```json
+ {
+    "diagnostics":{
+        "filter_id":[
+            "com.e1c.v8codestyle.bsl:doc-comment-field-in-description-suggestion",
+            "com.e1c.v8codestyle.bsl:method-optional-parameter-before-required",
+            "com.e1c.v8codestyle.bsl:doc-comment-return-section-type"
+        ],
+        "filter_code":[
+            "EDT-137",
+            "EDT-216"
+        ]
+    }
+}
+```
 
 ## Примеры использования
 

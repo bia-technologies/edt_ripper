@@ -2089,6 +2089,1176 @@
 			"Severity": "MINOR",
 			"Active": true,
 			"EffortMinutes": 3
+		},
+				{
+			"Code": "EDT-210",
+			"InternalCode": "com.e1c.v8codestyle.bsl:variable-value-type",
+			"Name": "Переменная не имеет типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-210",
+			"InternalCode": "com.e1c.g5.v8.dt.bsl.check:bsl-ql-hub",
+			"Name": "Запрос в строковом литерале",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-211",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-deprecated-method",
+			"Name": "Метод устарел",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-212",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-dynamic-feature-access",
+			"Name": "Метод устарел",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-213",
+			"InternalCode": "com.e1c.v8codestyle.bsl:redundant-export-method",
+			"Name": "Неиспользуемый экспортный метод",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-214",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-expression-type",
+			"Name": "Нельзя передавать объект типа между клиентом и сервером",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-215",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-form-attribute-property-assign",
+			"Name": "Нельзя присваивать атрибуту формы значение типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-216",
+			"InternalCode": "com.e1c.v8codestyle.bsl:unknown-form-parameter-access",
+			"Name": "Обращение к несуществующему параметру формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-217",
+			"InternalCode": "com.e1c.v8codestyle.bsl:reading-attribute-from-database",
+			"Name": "При чтении атрибута WSDLФайл из ссылки, весь объект импортируется из базы данных",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-218",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-static-feature-access-for-unknown-left-part",
+			"Name": "Свойство объекта не обнаружено",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-219",
+			"InternalCode": "com.e1c.v8codestyle.bsl:deprecated-procedure-outside-deprecated-region",
+			"Name": "Устаревшую процедуру следует перенести в область общего модуля УстаревшиеПроцедурыИФункции, размещенную внутри области ПрограммныйИнтерфейс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-220",
+			"InternalCode": "com.e1c.v8codestyle.bsl:constructor-function-return-section",
+			"Name": "Возвращается недекларированный тип",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-221",
+			"InternalCode": "com.e1c.v8codestyle.bsl:code-after-async-call",
+			"Name": "За асинхронным методом следуют строки кода",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-222",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-field-type-strict",
+			"Name": "Поле не имеет определения типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-223",
+			"InternalCode": "com.e1c.v8codestyle.bsl:new-font",
+			"Name": "Для изменения шрифта следует использовать элементы стиля",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-224",
+			"InternalCode": "com.e1c.v8codestyle.bsl:begin-transaction",
+			"Name": "Между и есть исполняемый код",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-225",
+			"InternalCode": "com.e1c.v8codestyle.md:md-object-attribute-comment-not-exist",
+			"Name": "Объект метаданных не имеет реквизит",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-226",
+			"InternalCode": "com.e1c.v8codestyle.form:data-composition-conditional-appearance-use",
+			"Name": "Реквизит формы использует условное оформление",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-227",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-external-connection",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-228",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-thick-client",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-229",
+			"InternalCode": "com.e1c.v8codestyle.bsl:method-optional-parameter-before-required",
+			"Name": "Необязательный параметр расположен перед обязательным",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-230",
+			"InternalCode": "com.e1c.v8codestyle.bsl:using-form-data-to-value",
+			"Name": "Рекомендуется использовать РеквизитФормыВЗначение вместо ДанныеФормыВЗначение",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-231",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-export-procedure-description-section",
+			"Name": "В комментарии к экспортной процедуре отсутствует секция",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-232",
+			"InternalCode": "Данный общий модуль не поддерживает данный тип директив компиляции из-за настроек окружения",
+			"Name": "Данный общий модуль не поддерживает данный тип директив компиляции из-за настроек окружения",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-233",
+			"InternalCode": "com.e1c.v8codestyle.bsl:bsl-variable-name-invalid",
+			"Name": "Имя переменной B введено некорректно",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-234",
+			"InternalCode": "com.e1c.v8codestyle.md:mdo-ru-name-unallowed-letter",
+			"Name": "Имя, синоним или комментарий содержит букву “ё”",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-235",
+			"InternalCode": "com.e1c.v8codestyle.form:form-item-visible-settings-by-roles",
+			"Name": "Использована ролевая настройка для элемента формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-236",
+			"InternalCode": "com.e1c.v8codestyle.bsl:module-structure-method-in-regions",
+			"Name": "Метод необходимо разместить в одной из верхнеуровневых областей",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-237",
+			"InternalCode": "Не рекомендуется атрибуту формы, имеющему произвольный тип, присваивать значение типа",
+			"Name": "Не рекомендуется атрибуту формы, имеющему произвольный тип, присваивать значение типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-238",
+			"InternalCode": "com.e1c.v8codestyle.bsl:object-module-export-variable",
+			"Name": "Не рекомендуется использовать экспортную переменную в модуле объекта",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-239",
+			"InternalCode": "com.e1c.v8codestyle.bsl:public-method-caching",
+			"Name": "Не рекомендуется кэшировать программный интерфейс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-240",
+			"InternalCode": "com.e1c.v8codestyle.bsl:optional-form-parameter-access",
+			"Name": "Обращение к опциональному параметру формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-241",
+			"InternalCode": "com.e1c.v8codestyle.bsl:export-procedure-missing-comment",
+			"Name": "Отсутствует комментарий к экспортной процедуре",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-242",
+			"InternalCode": "com.e1c.v8codestyle.md:md-object-attribute-comment-incorrect-type",
+			"Name": "Реквизит имеет недопустимый тип",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-243",
+			"InternalCode": "com.e1c.v8codestyle.md:document-post-in-privileged-mode",
+			"Name": "В документе, предполагающем проведение, не стоит флаг",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+	{
+			"Code": "EDT-244",
+			"InternalCode": "com.e1c.v8codestyle.form:form-commands-single-action-handler",
+			"Name": "Обработчик команды уже назначен для команды %1",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-245",
+			"InternalCode": "com.e1c.v8codestyle.right:right-start-automation",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-246",
+			"InternalCode": "com.e1c.v8codestyle.right:right-configuration-extensions-administration",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-247",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-name-global-client",
+			"Name": "Глобальный общий модуль не должен содержать суффикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-248",
+			"InternalCode": "com.e1c.v8codestyle.md:common-module-name-full-access",
+			"Name": "Привилегированный модуль должен оканчиваться на суффикс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-249",
+			"InternalCode": "Конструктор с данным числом параметров () не найден",
+			"Name": "Конструктор с данным числом параметров () не найден",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+	{
+			"Code": "EDT-250",
+			"InternalCode": "Неверный формат литерала типа Число",
+			"Name": "Неверный формат литерала типа Число",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-251",
+			"InternalCode": "Оператор может использоваться только внутри циклов",
+			"Name": "Оператор может использоваться только внутри циклов",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-252",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-string-literal",
+			"Name": "Возможно, строковый литерал содержит ошибку",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-253",
+			"InternalCode": "com._1c.g5.v8.dt.form:form-legacy-check-command-handler",
+			"Name": "Для команды формы назначен обработчик, но метод с таким именем отсутствует в модуле формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-254",
+			"InternalCode": "com._1c.g5.v8.dt.form:form-legacy-check-event-handler",
+			"Name": "Для события элемента формы назначен обработчик, но метод с таким именем отсутствует в модуле формы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-255",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-type-in-operator-new",
+			"Name": "Тип устарел",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-256",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-for-statements-after-return",
+			"Name": "Функция должна возвращать значение",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-257",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-if-preprocessor-part-environments",
+			"Name": "Код никогда не будет скомпилирован",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-258",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-static-feature-access",
+			"Name": "Метод устарел",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-259",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-names-are-unique",
+			"Name": "Процедура или функция с таким именем уже определена",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-260",
+			"InternalCode": "com._1c.g5.v8.dt.md.extension:md-ext-legacy-check-adopted-md-object-source-exists",
+			"Name": "Расширяемый объект для объекта расширения с именем не найден.",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-261",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-library-module",
+			"Name": "Данный модуль может содержать только процедуры и функции",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-262",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-return-statement",
+			"Name": "Оператор может использоваться только внутри процедур и функций",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-263",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-validate-order-of-module-part",
+			"Name": "Ошибочный порядок грамматических элементов",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-264",
+			"InternalCode": "Синтаксическая ошибка. Неверная лексема %1",
+			"Name": "Синтаксическая ошибка. Неверная лексема %1",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-265",
+			"InternalCode": "com.e1c.g5.v8.dt.form.check:dcs-ql-hub",
+			"Name": "Синтаксическая ошибка. Недопустимая лексема в данном контексте",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-266",
+			"InternalCode": "com.e1c.v8codestyle.bsl:method-isinrole-role-exist",
+			"Name": "Роль ПолныеПрава не существует в конфигурации",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-267",
+			"InternalCode": "Лексическое значение значения по умолчанию не соответствует типу",
+			"Name": "Лексическое значение значения по умолчанию не соответствует типу",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-268",
+			"InternalCode": "com.e1c.v8codestyle.bsl:use-goto-operator",
+			"Name": "Использован оператор Перейти",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-269",
+			"InternalCode": "com.e1c.g5.dt.core.legacy:form-legacy-emf-check",
+			"Name": "Illegal ShortCut",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-270",
+			"InternalCode": "This attribute with name cannot have columns",
+			"Name": "This attribute with name cannot have columns",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-271",
+			"InternalCode": "Агрегат не уникальный",
+			"Name": "Агрегат не уникальный",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-272",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-for-each-statetement-collection",
+			"Name": "Возможно, выражение не является объектом коллекции",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-273",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-pragma-for-unused-method",
+			"Name": "Данный модуль не поддерживает данный тип директив компиляции",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-274",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-unique-md-object-name",
+			"Name": "Дублирование объекта метаданных",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-275",
+			"InternalCode": "com.e1c.g5.v8.dt.md.check:reference-value-resolving-non-critical",
+			"Name": "Несуществующая UUID ссылка в значении заполнения стандартного реквизита",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-276",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-pragma",
+			"Name": "Данный общий модуль не поддерживает данный тип директив компиляции из-за настроек окружения",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-277",
+			"InternalCode": "com.e1c.g5.dt.core.legacy:md-legacy-emf-check",
+			"Name": "Некорректное значение свойства XDTO-пакета. Пространство имен пакета совпадает с пространством имен пакета",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-278",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-execute-statement",
+			"Name": "Неподдерживаемый оператор",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-279",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-type-environments",
+			"Name": "Тип неопределен",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-280",
+			"InternalCode": "Некорректный состав регистраторов регистра. Ни один из документов не является регистратором для регистра",
+			"Name": "Некорректный состав регистраторов регистра. Ни один из документов не является регистратором для регистра",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-281",
+			"InternalCode": "com.e1c.v8codestyle.ql:ql-like-expression-with-field",
+			"Name": "В качестве правого операнда операции сравнения указано поле таблицы",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-282",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-returning-type-for-environment",
+			"Name": "Возвращает тип, который имеет отличное окружение от контекста вызова",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-283",
+			"InternalCode": "com._1c.g5.v8.dt.form:form-legacy-check-type-description-types",
+			"Name": "Длина числа должна быть в диапазоне от 1 до",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-284",
+			"InternalCode": "com._1c.g5.v8.dt.bp.scheme:graphical-scheme-legacy-check-for-path-to-completion",
+			"Name": "На карте маршрута отсутствует путь в точку завершения",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-285",
+			"InternalCode": "com._1c.g5.v8.dt.bp.scheme:graphical-scheme-legacy-check-for-start-point-existence",
+			"Name": "На карте маршрута отсутствует точка старта",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-286",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-subsystem",
+			"Name": "Не рекомендуется создавать подсистемы глубиной вложенности более трех",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-287",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-commom-picture-unique-name",
+			"Name": "Некорректное значение свойства. Дублирование имени объекта метаданных",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-288",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-choice-parameter-link",
+			"Name": "Поле связи параметра выбора не указано или некорректно",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-289",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-the-same-global-element-name-for-module-variable",
+			"Name": "Элемент с таким именем уже есть в глобальном контексте",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-290",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-simple-statement",
+			"Name": "Неизвестный оператор",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-291",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-for-empty-method-environments",
+			"Name": "Окружение для метода не установлено",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-292",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-type-description-types",
+			"Name": "Данный тип не может входить в состав составного типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-293",
+			"InternalCode": "Синтаксическая ошибка. Неверный вводВЫБРАТЬ - ожидается",
+			"Name": "Синтаксическая ошибка. Неверный вводВЫБРАТЬ - ожидается",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-294",
+			"InternalCode": "com.e1c.v8codestyle.bsl:doc-comment-description-ends-on-dot",
+			"Name": "Комментарий метода не содержит точки в конце",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-295",
+			"InternalCode": "com.e1c.v8codestyle.bsl:commit-transaction",
+			"Name": "Вызов находится вне конструкции",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-296",
+			"InternalCode": "com.e1c.v8codestyle.right:right-all-functions-mode",
+			"Name": "Право роли установлено для",
+			"Description": "Отсутствует",
+			"Type": "VULNERABILITY",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-297",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-scheduled-job-method",
+			"Name": "Не найден обработчик для Регламентного задания",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-298",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-form-attribute-properaty-assign",
+			"Name": "Нельзя присваивать атрибуту формы значение типа",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-299",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-is-appropriate-ctor",
+			"Name": "Конструктор с данным числом параметров () не найден",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-300",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-environments-for-emty",
+			"Name": "Окружение для метода не установленно",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-301",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-number-literal-expression",
+			"Name": "Неверный формат литерала типа Число",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-302",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-continue-statement",
+			"Name": "Оператор может использоваться только внутри циклов",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-303",
+			"InternalCode": "com.e1c.v8codestyle.bsl:structure-consructor-value-type",
+			"Name": "Ключ 1 Структуры инициализируется с пустым типом",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-304",
+			"InternalCode": "com._1c.g5.v8.dt.bp.scheme:graphical-scheme-legacy-check-for-point-incoming-line-existence",
+			"Name": "Отсутствуют линии, входящие в точку карты маршрута",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-305",
+			"InternalCode": "com.e1c.v8codestyle.bsl:rollback-transaction",
+			"Name": "Для вызова отсутствует парный вызов",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-306",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-region-preprocessor",
+			"Name": "Инструкции препроцессора и не могут быть вложены друг в друга",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-307",
+			"InternalCode": "com._1c.g5.v8.dt.md:md-legacy-check-event-subscription-handler",
+			"Name": "Не найден обработчик для Подписки на событие",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-308",
+			"InternalCode": "com.e1c.dt.check.md:configuration-compatibility-mode",
+			"Name": "Неподдерживаемый режим совместимости, минимальный поддерживаемый режим совместимости - 8.3.6",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-309",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-async-method",
+			"Name": "Асинхронные методы доступны только в клиентском коде",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-310",
+			"InternalCode": "Синтаксическая ошибка. Неверный ввод \"'",
+			"Name": "Синтаксическая ошибка. Неверный ввод \"'",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-311",
+			"InternalCode": "com.e1c.v8codestyle.bsl:common-module-missing-api",
+			"Name": "Общий модуль не содержит программный интерфейс",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-312",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-preprocessors-lines",
+			"Name": "Никакая конструкция не разрешена справа от ключевого слова препроцессора",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-313",
+			"InternalCode": "Синтаксическая ошибка. Неверный вводВЫБРАТЬ РАЗЛИЧНЫЕ - ожидается",
+			"Name": "Синтаксическая ошибка. Неверный вводВЫБРАТЬ РАЗЛИЧНЫЕ - ожидается",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-314",
+			"InternalCode": "com._1c.g5.v8.dt.bp.scheme:graphical-scheme-legacy-check-for-addressing-attributes-values-existance",
+			"Name": "Неизвестное значение",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-315",
+			"InternalCode": "Синтаксическая ошибка. Недопустимая лексемаВЫБРАТЬ ПЕРВЫЕ 1 в данном контексте",
+			"Name": "Синтаксическая ошибка. Недопустимая лексемаВЫБРАТЬ ПЕРВЫЕ 1 в данном контексте",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-316",
+			"InternalCode": "Нижняя граница количества значений свойства не может быть меньше нижней границы переопределяемого свойства",
+			"Name": "Нижняя граница количества значений свойства не может быть меньше нижней границы переопределяемого свойства",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-317",
+			"InternalCode": "Тип \"{http",
+			"Name": "Тип \"{http",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-318",
+			"InternalCode": "Синтаксическая ошибка. Недопустимая лексемаВЫБРАТЬ в данном контексте",
+			"Name": "Синтаксическая ошибка. Недопустимая лексемаВЫБРАТЬ в данном контексте",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-319",
+			"InternalCode": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-module-extension",
+			"Name": "Повторяющееся имя метода. Метод с таким именем уже есть в заимствованном модуле",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-320",
+			"InternalCode": "com.e1c.v8codestyle.bsl:link-part-comment-space",
+			"Name": "Должен быть пробельный символ после перед ссылкой",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-321",
+			"InternalCode": "com.e1c.v8codestyle.form:data-composition-variant-name-default",
+			"Name": "Имя варианта отчета",
+			"Description": "Отсутствует",
+			"Type": "BUG",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-322",
+			"InternalCode": "com.e1c.v8codestyle.bsl:dont-use-modality-mode",
+			"Name": "Использование модального вызова при настройке",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-323",
+			"InternalCode": "com.e1c.v8codestyle.bsl:semicolon-missing",
+			"Name": "Пропущена точка с запятой",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-324",
+			"InternalCode": "com.e1c.v8codestyle.bsl:method-semicolon-extra",
+			"Name": "Объявление метода содержит лишнюю точку с запятой",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
+		},
+		{
+			"Code": "EDT-325",
+			"InternalCode": "com.e1c.v8codestyle.bsl:self-assign",
+			"Name": "Эта переменная присвоена сама себе",
+			"Description": "Отсутствует",
+			"Type": "CODE_SMELL",
+			"Severity": "MINOR",
+			"Active": true,
+			"EffortMinutes": 3
 		}
 	]
 }
